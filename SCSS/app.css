@@ -1,0 +1,43 @@
+button {
+  margin-right: 20px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  background-color: mediumpurple;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(62deg, rgb(21, 213, 235) 0%, rgb(255, 0, 191) 100%);
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(62deg, rgb(21, 213, 235) 0%, rgb(255, 0, 191) 100%);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+header > div {
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.5em;
+}
+
+main {
+  margin-top: 100px;
+}
+main img {
+  width: 200px;
+}/*# sourceMappingURL=app.css.map */
