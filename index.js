@@ -10,7 +10,7 @@ function init() {
 }
 function moveRight() {
   imgObj.style.left = parseInt(imgObj.style.left) + 10 + "px";
-  animate = setTimeout(moveRight, 20);
+  animate = setTimeout(moveRight, 30);
 }
 
 let button2 = document.getElementById("button2");
