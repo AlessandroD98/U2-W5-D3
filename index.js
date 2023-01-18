@@ -1,7 +1,11 @@
 let imgObj = null;
 
+const audio = new Audio("ytmp3free.cc_weeeee-sound-effect-youtubemp3free.org.mp3");
 const button = document.getElementById("button1");
-button.addEventListener("click", moveRight);
+button.addEventListener("click", () => {
+  moveRight();
+  document.getElementById("audio").play();
+});
 
 function init() {
   imgObj = document.getElementById("img");
